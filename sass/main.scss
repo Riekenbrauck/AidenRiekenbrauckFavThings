@@ -2,4 +2,62 @@
 @import 'modules/_home';
 @import 'modules/_bio';
 
-a { text-decoration: none; color: white; text-transform: uppercase; }
+a { text-decoration: none;
+
+    color: #fff;
+    
+    
+    font-family: arial;
+    
+    font-size: 15px;
+    transition-duration: .8s;
+}
+
+    a:hover{
+        font-size: 17px;
+        color: goldenrod;
+    }
+
+.bio_back
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.home
+{
+    text-align: right;
+    font-size: 50px;
+    margin-right: 20px;
+    bottom: 0;
+    right: 5%;
+}
+
+.mainBck
+{
+    width: 100vw;
+    height: 100vh;
+    background: url(/images//main_bck.jpg) center / cover no-repeat;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.mainBck h1
+{
+    margin-top: 50vh;
+}
+
+#heroes
+{
+    background-color: #000000e6;
+    top: 101%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 70px #000;
+
+}

@@ -1,12 +1,32 @@
+<div class="mainBck">
+    <h1>LCS PLAYOFFS</h1>
+</div>
+
+
 <section id="heroes"> 
     {{#each avatars}}  
-        <div class="hero-container">
-            <a href="/{{name}}">
-                <img src="/images/{{avatar}}" alt="avatar">
-            </a>
-
-            <h3 class="hero-name">{{name}}</h3>
+     <div class="row">
+  <div class="example-2 card">
+    <div class="wrapper" style="background: url(/images/{{avatar}}) center / cover no-repeat;">
+      <div class="header">
+        <div class="date">
+          <span class="day">{{seed}}</span>
         </div>
+      </div>
+      <div class="data">
+        <div class="content">
+          <span class="author">{{age}}</span>
+          <h1 class="title"><a href="#">{{name}}</a></h1>
+          <p class="text">{{home}}</p>
+          <a href="/{{name}}" class="button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     {{/each}}
 
 </section>
+
+
+

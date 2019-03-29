@@ -1,4 +1,22 @@
-<h1>Welcome to {{bioData.name}}'s bio page</h1>
-<img src="/images/{{bioData.avatar}}" alt="bio image">
-<h3>about {{bioData.name}}</h3>
-<p>{{bioData.bio}}</p>
+ 
+ <div class="bio_back" style="background: url(/images/{{bioData.background}}) center / cover no-repeat;"></div>
+
+
+
+
+
+<div class="_card">
+  <div class="info_section">
+    <div class="_header">
+      <img class="smallImg" src="/images/{{bioData.avatar}}"/>
+      <h1>{{bioData.name}}</h1>
+      <h4>{{bioData.age}}</h4>
+      <span class="minutes">{{bioData.seed}}</span>
+    </div>
+    <div class="_desc">
+      <p class="text">
+        {{bioData.bio}}
+      </p>
+    </div>
+  </div>
+</div>
