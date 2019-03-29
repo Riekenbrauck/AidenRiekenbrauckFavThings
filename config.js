@@ -1,8 +1,8 @@
 const config = {
     user: "root",
-    password: "",
+    pword: "",
     host: "localhost",
-    ports: "3306",
+    port: "3306",
     database: "a3_fav"
 }
 
